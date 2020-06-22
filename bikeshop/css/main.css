@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ppp{
+    color: rgb(255, 228, 243);
+}
+.ppp-bg{
+    background-color: rgb(255, 228, 243);
+}
+
+.bb{
+    color: rgb(52, 89, 149);
+}
+
+.bb-bg{
+    background-color: rgb(52, 89, 149);
+}
+
+.razz{
+    color: rgb(228, 0, 102);
+}
+
+.razz-bg{
+    background-color: rgb(228, 0, 102);
+}
+
+.sg{
+    color: rgb(141, 145, 139);
+}
+
+.sg-bg{
+    background-color: rgb(141, 145, 139);
+}
+
+.pb{
+    color: rgb(149, 178, 184);
+}
+
+.pb-bg{
+    background-color: rgb(149, 178, 184);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#header{
+    padding: 0px;
+}
+
+#splash{
+    padding: 0px;
+}
+
+*{
+    margin: 0px;
+}
+
+.header{
+    height: 45vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+.overlay{
+
+}
+
+.z10{
+    z-index: 10;
+}
+.z15{
+    z-index: 15;
+}
+.z5{
+    z-index: 5;
+}
+.z20{
+    z-index: 20;
+}
+
+.opacity{
+    opacity: 70%
+}
+
+.main-text{
+    font-size: 8vw;
+}
+
+.submain-text{
+    font-size: 4vw;
+}
+
+.resp-img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* .home-banner .slide .video-slide {
+    background-color: #000; }
+  
+.home-banner.loading .video-background {
+    opacity: 0; }
+  
+.video-background {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding-top: 56.25%;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: 2s opacity ease;
+    transition: 2s opacity ease;
+    opacity: 1; }
+  
+.video-foreground,
+.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; } */
