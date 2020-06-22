@@ -11,13 +11,14 @@
     
     <!-- Site CSS -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
 
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="../fa/css/all.css">
 
  </head>
-  <body>
-    <div class="container-fluid" id="header">
+  <body class="">
+    <div class="container-fluid p-0" id="header">
         <nav class="navbar navbar-expand-sm navbar-dark bb-bg">
             <a class="navbar-brand" href="#"><i class="fas fa-bicycle fa-2x"></i></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -61,7 +62,7 @@
 
             </div>
 
-            <div class="video embed-responsive embed-responsive-16by9 position-absolute p-0 d-none d-sm-block z10" style="top: -60px; left: 0px; z-index: 1">
+            <div class="video embed-responsive embed-responsive-16by9 position-absolute p-0 d-none d-sm-block z10" style="top: -60px; left: 0px; z-index: 1" id="splashvideo">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/GlAWLuc4utE?autoplay=1&loop=1&modestbranding=1&showinfo=0&rel=0&fs=0&controls=0&disablekb=1&mute=1&playlist=GlAWLuc4utE&amp;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="d-sm-none z5">
@@ -70,6 +71,19 @@
         </div>
     </div>
     
+    <div class="container-fluid" id="subsplash">
+        <div class='d-flex flex-row justify-content-around flex-wrap'>
+            <div class="flex-grow-1 col-xs-12 flex-wrap">
+                <img class='resp-img subsplash-img' src="img/ground.jpg" alt="Rides">
+            </div>
+            <div class="flex-grow-1 col-xs-12 flex-wrap">
+                <img class='resp-img subsplash-img' src="img/helmet.jpg" alt="Accesories">
+            </div>
+            
+            
+        </div>
+            
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
