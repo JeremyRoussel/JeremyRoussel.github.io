@@ -12,13 +12,16 @@
     <!-- Site CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet"> 
 
     <!-- FontAwesome CSS -->
     <link rel="stylesheet" href="../fa/css/all.css">
 
+
+
  </head>
-  <body class="">
-    <div class="container-fluid p-0" id="header">
+  <body class="ppp-bg">
+    <div class="container-fluid" id="header">
         <nav class="navbar navbar-expand-sm navbar-dark bb-bg">
             <a class="navbar-brand" href="#"><i class="fas fa-bicycle fa-2x"></i></a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -71,13 +74,96 @@
         </div>
     </div>
     
-    <div class="container-fluid" id="subsplash">
-        <div class='d-flex flex-row justify-content-around flex-wrap'>
-            <div class="flex-grow-1 col-xs-12 flex-wrap">
-                <img class='resp-img subsplash-img' src="img/ground.jpg" alt="Rides">
+    <div class="container-fluid d-none d-sm-block">
+        <div class="header position-relative d-flex">
+
+            <div class="d-flex flex-column justify-content-end h-100 w-100 align-items-center text-white position-absolute z20">
+                <p class='main-text'>
+                    Products
+                </p>
             </div>
-            <div class="flex-grow-1 col-xs-12 flex-wrap">
-                <img class='resp-img subsplash-img' src="img/helmet.jpg" alt="Accesories">
+
+            <div class="col-xs-12">
+                <img class='resp-img subsplash-img position-absolute z10' src="img/ground.jpg" alt="Accesories">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid d-none d-sm-block products">
+        <div class="d-flex flex-row flex-wrap">
+
+            <div class="items d-flex flex-column col-sm-6 col-md-3 justify-content-between">
+                <div class="wht-bg d-flex justify-content-center submain-text">
+                    Item
+                </div>
+                <div class="wht-bg d-flex">
+                    <img class='resp-img subsplash-img' src="img/helmet.jpg" alt="Accesories">
+                </div>
+                <div class="wht-bg d-flex justify-content-center">
+                    Price / Button
+                </div>
+            </div>
+
+            <div class="items d-flex flex-column col-sm-6 col-md-3 justify-content-between">
+                <div class="wht-bg d-flex justify-content-center submain-text">
+                    Item
+                </div>
+                <div class="wht-bg d-flex">
+                    <img class='resp-img subsplash-img' src="img/helmet.jpg" alt="Accesories">
+                </div>
+                <div class="wht-bg d-flex justify-content-center">
+                    Price / Button
+                </div>
+            </div>
+
+            <div class="items d-flex flex-column col-sm-6 col-md-3 justify-content-between">
+                <div class="wht-bg d-flex justify-content-center submain-text">
+                    Item
+                </div>
+                <div class="wht-bg d-flex">
+                    <img class='resp-img subsplash-img' src="img/helmet.jpg" alt="Accesories">
+                </div>
+                <div class="wht-bg d-flex flex-row align-items-start justify-content-around cartadd">
+                    <div class="flex-1 align-self-center">
+                        Price
+                    </div>
+                    <div class="flex-1 d-flex align-self-center align-items-center">
+                        <button class="btn bb-bg">
+                                Add to Cart <span class="badge"></span>
+                        </button>
+                    </div> 
+                </div>
+            </div>
+
+            <div class="items d-flex flex-column col-sm-6 col-md-3 justify-content-around">
+                <div class="wht-bg d-flex justify-content-center submain-text">
+                    Item
+                </div>
+                <div class="wht-bg d-flex">
+                    <img class='resp-img subsplash-img' src="img/helmet.jpg" alt="Accesories">
+                </div>
+                <div class="wht-bg d-flex justify-content-center">
+                    Price / Button
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container-fluid" id="subsplash">
+        <div class='d-flex flex-column justify-content-around flex-wrap'>
+         
+            <div class="col-xs-6">
+                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-95.45522689819337%2C29.651658880141365%2C-95.34364700317384%2C29.826199433602028&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=13/29.7390/-95.3994">View Larger Map</a></small>
+            </div>
+            
+            <div class="col-xs-6">
+                
             </div>
             
             
@@ -85,7 +171,12 @@
             
     </div>
 
+
+
+
+
     <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

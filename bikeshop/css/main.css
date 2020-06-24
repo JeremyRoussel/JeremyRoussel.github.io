@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+} */
 
 .ppp{
     color: rgb(255, 228, 243);
@@ -43,8 +43,16 @@
     background-color: rgb(149, 178, 184);
 }
 
+.wht-bg{
+    background-color: white;
+}
+
 a:hover{
     text-decoration: underline;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
 }
 
 #header{
@@ -58,20 +66,19 @@ a:hover{
     padding: 0px;
     margin-bottom: 2vh;
     box-sizing: border-box;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 #subsplash{
-    height: fit-content;
-    width: 100vw;
+    height: auto;
+    width: 100%;
     overflow: hidden;
-    padding: 0px;
     box-sizing: border-box;
-    padding-left: 2vh;
-    padding-right: 2vh;
-    margin-right: 0px;
-    margin-left: 0px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-right: 0vw;
+    margin-left: 0vw;
 }
 
 #splashvideo{
@@ -82,14 +89,23 @@ a:hover{
 }
 
 .header{
-    height: 45vw;
+    height: 35vw;
     width: 100%;
     overflow: hidden;
 }
 
+.products{
+    font-family: inherit;
+    margin-bottom: 2vh;
+}
+
+.items{
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
 .overlay{
     color: inherit
-
 }
 
 .z10{
@@ -123,11 +139,15 @@ a:hover{
 }
 
 
-
 .subsplash-img{
     padding-left: 0vw;
     padding-right: 0vw;
     margin-bottom: 2vh;
+    height: auto;
+}
+
+.cartadd{
+    padding-bottom: 1vh;
 }
 
 
